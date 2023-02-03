@@ -1,0 +1,22 @@
+name: base
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+## TOOLS
+  - mamba # faster conda
+  - pip
+  - mawk # faster awk
+  - miller # data processor
+  - pigz # parallel gzip
+  - micro # text editor
+  - bpytop # htop, but awesome
+## BIO
+  - seqmagick
+## R
+  - r-base=4
+  - r-essentials
+  - r-plotly
+  - r-ape
+  - jupyterlab
+  - jupyterthemes

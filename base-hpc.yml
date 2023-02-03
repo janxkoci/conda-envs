@@ -1,0 +1,30 @@
+name: base
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+## TOOLS
+  - mamba # faster conda
+  - pip
+  - mawk # faster awk
+  - miller # data processor
+  - pigz # parallel gzip
+  - tmux
+  - micro # text editor
+  - bpytop # htop, but awesome
+## BIO
+  - seqmagick
+  - bioawk
+  - fastqc
+  - samtools
+  - bcftools
+  - freebayes
+  - vcflib
+  - plink
+  - tabix
+  - grabix
+## R
+  - r-base=4
+  - r-essentials
+  - r-ape
+  - radian # Julia/Jupyter style CLI
