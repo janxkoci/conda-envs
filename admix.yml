@@ -1,0 +1,23 @@
+name: admix
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+# R packages
+  - r-base=4
+  - r-rcpp
+  - r-tidyverse
+  - r-igraph
+  - r-plotly
+  - r-future
+  - r-future.apply
+  - r-furrr
+  #- r-devtools
+  - r-remotes # install github packages without full devtools
+# IDE
+  - radian # Julia/Jupyter style CLI
+  #- r-irkernel # R kernel for jupyter
+  #- jupyter
+  #- jupyterlab
+  #- jupyter_console
+  #- jupyterthemes
