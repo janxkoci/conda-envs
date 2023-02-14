@@ -1,6 +1,8 @@
 # conda-envs
 definition files for my conda environments
 
+See also my [conda cheat sheet](https://janxkoci.github.io/tutorials/conda_cheatsheet.html)!
+
 ## base envs
 > `conda` base env with two flavours - HPC and PC (aka remote and localhost, resp.)
 
