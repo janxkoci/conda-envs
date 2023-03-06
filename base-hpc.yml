@@ -21,8 +21,11 @@ dependencies:
   - freebayes
   - vcflib
   - plink
+  - plink2 # yes, both, totally!
   - tabix
   - grabix
+  - seqtk
+  - seqkit
 ## R
   - r-base=4
   - r-essentials
