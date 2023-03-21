@@ -3,7 +3,7 @@ definition files for my conda environments
 
 See also my [conda cheat sheet](https://janxkoci.github.io/tutorials/conda_cheatsheet.html)!
 
-## base envs
+## base envs (`base-hpc.yml` & `base-pc.yml`)
 > `conda` base env with two flavours - HPC and PC (aka remote and localhost, resp.)
 
 Since these are `base` environments, they cannot be _created_ using these files, as `base` already exists and `conda` will throw an error. Instead, these files can be used for [updating](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment) the `base` env (e.g. after fresh install):
@@ -12,7 +12,7 @@ Since these are `base` environments, they cannot be _created_ using these files,
 conda-env update -f base-*pc.yml  # --prune will remove unused dependencies
 ```
 
-## admixtools2 env
+## admixtools2 env (`admix.yml`)
 > install `admixtools2` in a new `conda` environment
 
 ### 1. Create a new conda environment (shell)
