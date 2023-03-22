@@ -10,6 +10,7 @@ dependencies:
   - miller # data processor
   - pigz # parallel gzip
   - micro # text editor
+  - visidata # spreadsheet processor
   - bpytop # htop, but awesome
 ## BIO
   - seqmagick
