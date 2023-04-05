@@ -12,6 +12,7 @@ dependencies:
   - r-future
   - r-future.apply
   - r-furrr
+  #- r-shiny # for the admixtools2 GUI
   #- r-devtools
   - r-remotes # install github packages without full devtools
 # IDE
