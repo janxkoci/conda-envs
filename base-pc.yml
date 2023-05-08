@@ -6,7 +6,8 @@ dependencies:
 ## TOOLS
   - mamba # faster conda
   - pip
-  - mawk # faster awk
+#  - mawk=1.3.4 # faster awk (default in Ubuntu)
+  - gawk # featurefull awk
   - miller # data processor
   - pigz # parallel gzip
   - micro # text editor
@@ -14,10 +15,16 @@ dependencies:
   - bpytop # htop, but awesome
 ## BIO
   - seqmagick
+  - bioawk
 ## R
   - r-base=4
-  - r-essentials
-  - r-plotly
+  - r-essentials # includes jupyter
+  - r-future # parallel programming
+  - r-future.apply
+  - r-furrr
+  - r-plotly # interactive plots
   - r-ape
+  - r-seqinr
+  - r-vcfr
   - jupyterlab
   - jupyterthemes
