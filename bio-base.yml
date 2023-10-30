@@ -32,7 +32,7 @@ dependencies:
   - diamond
   - raxml-ng
   - phyml
-  - mamba
+#  - mamba
   - mafft
   - sra-tools
   - gsl # =2.5
