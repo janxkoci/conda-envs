@@ -1,0 +1,49 @@
+name: bio-base
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+#  - fastqc
+#  - multiqc
+#  - afterqc
+  - samtools
+  - bwa
+  - bowtie2
+  - hisat2
+  - star
+  - bcftools # =1.18
+  - vcftools
+  - seqtk
+  - seqkit
+#  - freebayes
+  - plink
+  - plink2
+  - micro
+  - tabix
+  - grabix
+  - bedtools
+  - pigz
+  - bioawk
+#  - trimmomatic
+  - iqtree # =2.0
+  - fasttree # =2.1
+  - phylobayes-mpi
+  - blast
+  - diamond
+  - raxml-ng
+  - phyml
+  - mamba
+  - mafft
+  - sra-tools
+  - gsl # =2.5
+  - cd-hit
+  - seqmagick
+  - cutadapt
+  - trinity
+  - newick_utils
+  - fastp
+#  - Open MPI
+#  - radian
+#  - jupyter_console
+  - miller=6
+  - gawk
