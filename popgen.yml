@@ -1,0 +1,14 @@
+name: admix
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - plink
+  - plink2
+  - admixture
+  - structure
+  - faststructure
+  - finestructure
+  - fineradstructure
+  - structureharvester
+  - stacks
