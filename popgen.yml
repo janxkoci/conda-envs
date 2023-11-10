@@ -1,4 +1,4 @@
-name: admix
+name: popgen
 channels:
   - conda-forge
   - bioconda

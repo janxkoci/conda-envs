@@ -1,0 +1,14 @@
+name: slendr
+channels:
+ - conda-forge
+dependencies:
+ - r-sf
+ - r-devtools
+ - slim
+ - tskit
+ - msprime
+ - pyslim
+ - pkg-config
+ - r-rnaturalearth
+ - r-tidyverse
+ - r-stars
