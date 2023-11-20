@@ -1,7 +1,7 @@
 name: admix
 channels:
   - conda-forge
-  - bioconda
+  #- bioconda
 dependencies:
 # R packages
   - r-base=4
@@ -15,6 +15,7 @@ dependencies:
   #- r-shiny # for the admixtools2 GUI
   #- r-devtools
   - r-remotes # install github packages without full devtools
+  - r-pak # new R package manager
 # IDE
   - radian # Julia/Jupyter style CLI
   #- r-irkernel # R kernel for jupyter

@@ -2,13 +2,18 @@ name: slendr
 channels:
  - conda-forge
 dependencies:
- - r-sf
- - r-remotes
- - slim
- - tskit
- - msprime
- - pyslim
- - pkg-config
- - r-rnaturalearth
+ - r-base=4
+ - r-pak  # new R package manager
  - r-tidyverse
+ - r-remotes
+ - r-sf
+ - r-rnaturalearth
  - r-stars
+ - pkg-config
+# - radian # advanced R console
+## slendr wants its own versions and ignores these
+# - slim
+# - tskit
+# - msprime
+# - pyslim
+
