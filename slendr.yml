@@ -9,6 +9,7 @@ dependencies:
  - r-sf
  - r-rnaturalearth
  - r-stars
+ - r-geojsonio
  - pkg-config
 # - radian # advanced R console
 ## slendr wants its own versions and ignores these
