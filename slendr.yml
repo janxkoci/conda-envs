@@ -11,10 +11,11 @@ dependencies:
  - r-stars
  - r-geojsonio
  - pkg-config
-# - radian # advanced R console
+# - radian # advanced R console - CONFLICTS with slendr's python interface - use jupyter
+ - jupyter_console
+ - r-irkernel
 ## slendr wants its own versions and ignores these
 # - slim
 # - tskit
 # - msprime
 # - pyslim
-
