@@ -9,9 +9,14 @@ dependencies:
 #  - mawk=1.3.4 # faster awk (default in Ubuntu)
   - gawk # featurefull awk
   - miller # data processor
+  - csvtk
+  - xsv
+  - visidata
   - pigz # parallel gzip
+  - parallel
   - tmux
   - micro # text editor
+  - xsel # clipboard for micro
   - visidata # spreadsheet processor
   - bpytop # htop, but awesome
 ## BIO

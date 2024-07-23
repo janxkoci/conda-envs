@@ -1,0 +1,12 @@
+name: csv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - miller
+  - csvtk
+  - xsv
+  - visidata
+  - bioawk
+  - imagemagick
+  - gnuplot
