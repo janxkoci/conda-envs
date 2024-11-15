@@ -28,3 +28,4 @@ dependencies:
   - r-vcfr
   - jupyterlab
   - jupyterthemes
+  - catppuccin-jupyterlab
