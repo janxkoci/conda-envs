@@ -4,9 +4,10 @@ channels:
   - bioconda
 dependencies:
   - miller
-  - csvtk
-  - xsv
+  - csvtk # plots
+#  - xsv
+  - xan # new fork of xsv
   - visidata
   - bioawk
-  - imagemagick
-  - gnuplot
+#  - imagemagick # many many deps
+#  - gnuplot
