@@ -5,10 +5,22 @@ channels:
 dependencies:
   - plink
   - plink2
+  - eigensoft # smartpca & convertf
   - admixture
   - structure
-  - faststructure
+  #- faststructure # requires python2 !!!
   - finestructure
   - fineradstructure
-  - structureharvester
+  #- structureharvester # requires python2 !!!
   - stacks
+  - pixy
+  - piawka
+  - gawk
+  - bcftools
+  - vcftools
+  - bio-vcf
+  - bioawk
+  - miller
+  - parallel
+  #- pyrad
+  #- ipyrad

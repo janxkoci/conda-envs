@@ -1,0 +1,12 @@
+name: tskit
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - tskit
+  - tsinfer
+  - pip:
+    - tsdate
+    - tspop
+    - tszip
+

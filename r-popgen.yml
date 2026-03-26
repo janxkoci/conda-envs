@@ -1,0 +1,22 @@
+name: r-popgen
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-tidyverse
+  - r-future.apply
+  - r-furrr
+  - r-smartsnp
+  - r-ape
+  - r-pegas
+  - r-vcfr
+  - r-poppr
+  - r-adegenet
+  - r-phater
+  - r-umap
+  - r-uwot
+  - phate
+  - r-seqinr
+  - r-irkernel
+  - jupyter_console
+  - parallel

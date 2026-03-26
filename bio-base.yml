@@ -39,7 +39,7 @@ dependencies:
   - cd-hit
   - seqmagick
   - cutadapt
-  - trinity
+#  - trinity
   - newick_utils
   - fastp
 #  - Open MPI
