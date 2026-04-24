@@ -6,6 +6,7 @@ dependencies:
  - r-pak  # new R package manager
  - r-tidyverse
  - r-remotes
+## see https://github.com/bodkan/slendr/blob/main/DESCRIPTION
  - r-reticulate
  - r-png
  - r-ijtiff
