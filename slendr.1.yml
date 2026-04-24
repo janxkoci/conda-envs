@@ -1,0 +1,33 @@
+name: slendr.1
+channels:
+ - conda-forge
+dependencies:
+ - r-base=4
+ - r-pak  # new R package manager
+ - r-tidyverse
+ - r-remotes
+ - r-reticulate
+ - r-png
+ - r-ijtiff
+ - r-ape
+ - r-scales
+ - r-digest
+ - r-ggrepel
+ - pkg-config
+## jupyter IDE
+ - r-irkernel
+ - jupyter_console
+ - jupyterlab
+ - catppuccin-jupyterlab
+## for spatial models also SLiM
+# - slim
+## maybe
+# - r-sf
+# - r-rnaturalearth
+# - r-stars
+# - r-geojsonio
+# - r-igraph
+# - r-shiny
+# - r-imager
+# - r-codetools
+# - libtiff
