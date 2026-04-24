@@ -3,7 +3,18 @@ definition files for my conda environments
 
 See also my [conda cheat sheet](https://janxkoci.github.io/tutorials/conda_cheatsheet.html)!
 
-## base envs (`base-hpc.yml` & `base-pc.yml`)
+## general instructions
+Most environments can be installed with simple:
+
+```bash
+conda env create --file env.yml
+# or
+mamba env create --file env.yml
+```
+
+Some environments need special instructions, see below.
+
+### base envs (`base-hpc.yml` & `base-pc.yml`)
 > `conda` base env with two flavours - HPC and PC (aka remote and localhost, resp.)
 
 Since these are `base` environments, they cannot be _created_ using these files, as `base` already exists and `conda` will throw an error. Instead, these files can be used for [updating](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment) the `base` env (e.g. after fresh install):
@@ -12,10 +23,10 @@ Since these are `base` environments, they cannot be _created_ using these files,
 conda-env update -f base-*pc.yml  # --prune will remove unused dependencies
 ```
 
-## admixtools2 env (`admix.yml`)
+### admixtools2 env (`admix.yml`)
 > install `admixtools2` in a new `conda` environment
 
-### 1. Create a new conda environment (shell)
+#### 1. Create a new conda environment (shell)
 Create a new environment as described in the [conda docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file), activate it, and start `R`:
 
 ```bash
@@ -29,7 +40,7 @@ $ conda activate admix
 $ R
 ```
 
-### 2. Install admixtools2 inside activated environment (R)
+#### 2. Install admixtools2 inside activated environment (R)
 After launching `R` inside the new environment, install [admixtools2](https://github.com/uqrmaie1/admixtools) by running the following:
 
 ```R
